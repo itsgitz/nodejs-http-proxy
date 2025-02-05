@@ -12,6 +12,7 @@ function runService(target: string) {
   return createProxyMiddleware<Request, Response>({
     target,
     changeOrigin: true,
+    logger: console,
   });
 }
 
