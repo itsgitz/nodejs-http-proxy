@@ -1,5 +1,4 @@
 {
-  "private": "true",
   "scripts": {
     "start": "DEBUG=http-proxy-middleware* npx tsx ./src/main.ts"
   },
