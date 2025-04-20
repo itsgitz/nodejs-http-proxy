@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "DEBUG=http-proxy-middleware* npx tsx ./src/main.ts"
+    "start": "DEBUG=http-proxy-middleware* bun ./src/main.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
